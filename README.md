@@ -1,0 +1,1 @@
+var strings = ["a1","2", "\@ja"]; // coming from outside source. they could be anything var obj = {}; for(let key of strings){ // what should do here to make sure the key string is safe to use as key obj[key] = "random value"; }
